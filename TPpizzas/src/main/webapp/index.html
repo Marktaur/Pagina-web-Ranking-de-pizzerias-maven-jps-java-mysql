@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="descripticion" name="T P integrador">
+    <link rel="icon" href="Imagenes/icono.png">
+    <meta name="author" content="Marcos Benassi">
+    <meta name="copyright" content="Marktaur/github.io">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <title>T.P. Integrador Full Stack Java de Marcos Benassi </title>
+   
+</head>
+
+<body>
+    
+    
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes/Logo.JPG" alt="" class="d-inline-block align-text-top">
+                <span>Pizzerias de Buenos Aires</span>
+            </a>
+        </div>
+    </nav>
+    
+    
+<header>
+   
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Top 10 Mejores lugares
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Guerrin</a></li>
+                <li><a class="dropdown-item" href="#">Las Cuartetas </a></li>
+                <li><a class="dropdown-item" href="#">El Palacio de la Pizza</a></li>
+                <li><a class="dropdown-item" href="#">El Mazzacote</a></li>
+                <li><a class="dropdown-item" href="#">Banchero</a></li>
+                <li><a class="dropdown-item" href="#">El Fortin</a></li>
+                <li><a class="dropdown-item" href="#">La Americana</a></li>
+                <li><a class="dropdown-item" href="#">El Imperio</a></li>
+                <li><a class="dropdown-item" href="#">Santa Maria</a></li>
+                <li><a class="dropdown-item" href="#">El Corte</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Top Parrillas</a></li>
+            </ul>
+            <button type="button" class="btn btn-danger dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Socios
+              </button>
+            
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="vistas/login.jsp">Iniciar Sesión</a></li>
+                <li><a class="dropdown-item" href="vistas/verPizzerias.jsp">Ranking</a></li>
+                
+              </ul>
+        </div>
+        <style>
+             .btn-group{
+
+                margin-left: 30px;
+              }
+         .navbar.navbar-light.bg-light {
+            position: relative;
+            overflow: hidden;
+            color: white; 
+    
+        }
+    
+        .navbar-brand img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    
+        .navbar-brand {
+            font-size: 50px;
+            font-family:'Titillium Web', sans-serif;
+           
+        }
+
+        </style>
+    </header>
+    <br>
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" whidth="800" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+                    aria-label="Slide 10"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/Guerrin.jpg" w height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Guerrin</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/Las Cuertetas.jpg" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Las Cuertetas</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/El palacio.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El Palacio de la Pizza</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/El mazzacote.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El Mazzacote</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/Banchero.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Banchero</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/El fortin.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El Fortin</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/La americana.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>La Americana</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/La imperial.JPG" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El Imperio</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/pizzeria-santa-maria.jpg" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Santa Maria</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/El corte.jpg" height="700" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El corte</h2>
+
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <br>
+    </section>
+    <br>
+    <section>
+         <p><b>Diferencias entre mozzarella y mozzarella de búfala</b><br>
+            Aprender a diferenciar estas dos variedades de quesos no es fácil y hay muchas personas que pueden llegar a confundirlas.  Estas son algunas de las diferencias y de matices diferenciadores entre estos dos quesos: Origen: la mozzarella de búfala procede, como su propio nombre nos indica, de leche de búfala de agua, un animal de la familia de los bovinos que se cría en distintas regiones del sur de Italia. Por su parte la mozzarella tradicional se elabora con leche de vacas. Porcentaje de grasa: la mozzarella de búfala contiene un 7% más de grasa que la mozzarella de vaca. Propiedades organolépticas: el porcentaje de proteínas es mayor en la mozzarella de búfala, su color es más intenso y su textura más aterciopelada y suave. Una buena mozzarella de búfala se reconoce por su color blanco porcelana, una costra finísima y una textura blanda, pero no demasiada chiclosa.  
+            <p><b>Origen y elaboración del queso mozzarella</b><br>
+            El término mozzarella procede de la palabra en italiano “mozzare”, que significa cortar. Se cree que la ciudad de origen de este famosísimo queso italiano fue Aversa, en la provincia de Caserta. La Mozzarella di Bufala di Campana (Mozzarella de búfala) está protegida con Denominación De Origen, siendo un queso que se produce en Caserta y Salerno y en algunos municipios de otras provincias italianas. Se cree que la introducción de las búfalas en Italia se produjo en el siglo I por los ostrogodos, un pueblo germánico que ocupó parte de la Italia actual. Para la fabricación de este queso se parte de leche fresca, que gracias al cuajo y a las bacterias se separa el suero de la cuajada (la parte sólida). Esta cuajada, una vez cortada en cubos, se calienta. El resultado es una masa elástica que se moldea en forma de bolas. Estas bolas se someten ahora a un proceso de estirado e hilado a mano hasta formar un ovillo del tamaño de un puño. Finalmente se sumergen estas bolas en una salmuera fría que le proporciona el punto de sal adecuado, a la vez que hace que la acidificación por bacterias finalice. En la fabricación industrial de estos quesos, el proceso de hilado y estirado se realiza a máquina, evitando los riesgos que supone que los maestros artesanos hilaran a mano la masa caliente.
+        </p>
+
+    </section>
+    <article>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="Imagenes/Envios.JPG" class="d-block w-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Compras online</h5>
+                        <p class="card-text">Visite el mejor sitio y mas confiable para Ordenar sus Pizzas</p>
+                        <a href="tickets.html" class="btn btn-primary">Ir al sitio</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        <br>
+        <br>
+        <h2>Deje Sus comentarios Aqui</h1>
+
+            <div style="width: 800px;">
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button type="submit" id="comentar" class="btn btn-primary">Enviar</button>
+                </div>
+    </article>
+    <footer>
+        <b><br> Marktaur - Todos los derechos reservados 2023 </b>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="scripts2.js"></script>
+</body>
+
+</html>
